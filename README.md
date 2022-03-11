@@ -12,29 +12,9 @@
 `npx hardhat console --network rinkeby`
 
 
-```
-var a = await ethers.getContractFactory('NFTee')
-`eg: 0xE19e397f003D6F0d68550c29DBa8F58A5dAeC1Dd`
-var b = await a.attach("YOUR_DEPLOYED_CONTRACT_ADDRESS")
+`Orignal code`
+> https://etherscan.io/address/0xbc4ca0eda7647a8ab7c2061c2e118a18a936f13d
 
-var c = await b.mintNFT('https://bafyreie6yqecx2ivynzn3o4rg7fxabjg2i4fa7wuuugmycnv3ojht4jqw4.ipfs.dweb.link/metadata.json')
+`MY CODE`
 
-var d = await d.wait()
-
-
-
-```
-
-> Metadata
-```
-{
-  "attributes": [
-    { "trait_type": "Background", "value": "Gradient Tres" },
-    { "trait_type": "Body", "value": "Orange Circle" },
-    { "trait_type": "Face", "value": "Smile" }
-  ],
-  "description": "A collection of 960 (1/1) Crypto Bribers (vol. 1). A portion of sales and royalties gets donated to Charity Bribes, where they raise money for good causes by bribing celebrities.",
-  "name": "Briber",
-  "image": "ipfs://QmPCe2qNjJsxyJb9hCm5JDcSb4tMN71N6VM14hEcfyYcgX/0.png"
-}
-```
+https://rinkeby.etherscan.io/address/0x034d362262881D2fe81f19bAB11882498545aA19
